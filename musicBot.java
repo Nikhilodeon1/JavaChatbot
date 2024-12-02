@@ -22,7 +22,7 @@ public class musicBot {
                     }
                 }
                 if (input.length() == 0) {
-                    System.out.println(output.rand("empty") + " Please type atleast 1 letter.");
+                    System.out.println(output.rand("empty") + " Please type at least 1 letter.");
                 } else if (input.equals("q")) {
                     System.out.println(output.rand("bye"));
                     break;

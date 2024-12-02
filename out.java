@@ -101,6 +101,7 @@ public class out {
     }
     
     public void pos1(String input) {
+        System.out.println("");
         System.out.println("Bot: ");
         int ind = input.indexOf("by");
         String split = input.substring(ind+3);
@@ -127,7 +128,7 @@ public class out {
 
     public void pos2(String obsGenre) {
         System.out.println("Bot: ");
-        String[] result = utilities.fetcher(obsGenre).split(";");
+        String[] result = utilities.fetcher(obsGenre).split("; ");
         System.out.println(rand("genres") + " " + obsGenre + " songs: ");
         for (int i = 0; i < 10 ; i++) {
             System.out.println(String.valueOf(i+1) + ". " + result[i]);
@@ -137,7 +138,7 @@ public class out {
     public void pos3(String input, String obsGenre) {
         int ind = input.indexOf("by");
         String split = input.substring(ind+3);
-        String[] result = utilities.fetcher(obsGenre).split(";");
+        String[] result = utilities.fetcher(obsGenre).split("; ");
         String[] final1 = new String[10];
         int index = 0;
         for (String elm : result) {
