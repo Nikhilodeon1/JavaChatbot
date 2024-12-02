@@ -6,7 +6,7 @@ params = {
         "tag": genre,
         "api_key": "2b3020f4b0dfac666c95d4a11393729c",
         "format": "json",
-        "limit": 100
+        "limit": 80
     }
 response = requests.get("http://ws.audioscrobbler.com/2.0/", params=params)
 if response.status_code == 200:

@@ -9,7 +9,7 @@ public class util {
         "Country", "R&B", "Folk", "Punk", "Metal", "Soul", "Disco", "Gospel", "K-Pop", 
         "Latin", "House", "Techno", "Dubstep", "Trap", "Trance", "Indie", "Grunge", 
         "Ska", "Ambient", "Soundtrack", "Afrobeats", "Dancehall", "Salsa", "Bollywood", 
-        "Opera", "Chillwave", "EDM", "Rap", "hiphop", "J-pop", ""
+        "Opera", "Chillwave", "EDM", "Rap", "hiphop", "J-pop", "mexican", "indian"
     };
 
     public String fetcher(String input) {
